@@ -1,0 +1,6 @@
+git --version 
+pwd 
+ls 
+cd foldername 
+Initialization -> git init 
+Modification -> git add filename 
