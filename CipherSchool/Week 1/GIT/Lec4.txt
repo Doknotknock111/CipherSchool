@@ -1,0 +1,24 @@
+git revert id(revert to some point of time OPEN VI editor)
+to enter in VI, press i and to save use esc :wq
+
+git reset id  --hard/--soft FLAGS 
+
+
+
+
+#To branch out from master
+git branch dev-1 # dev-1 is the name of the branch 
+git branch # displays or list out branches name 
+
+To navigate between Branches:
+git checkout dev-1 # moves to dev-1 branch 
+git checkout master # moves to master branch 
+
+#Shortcut to create and switch to branch 
+git checkout -b dev-2 #[git branch dev-1 + git checkout dev-1 ]
+
+git checkout dev-1
+git add filname
+git commit -m"Mesage"
+// codes from 16 to 18 are done in dev-1 branch 
+Changes made in dev-1 branch will not be visible to master branch 
