@@ -1,0 +1,9 @@
+This lecture was about basic introduction to git how to intialize the repositoty and what is git.
+Git Github Introduction 
+
+
+#COMMANDS
+git --version //to check version of git in system
+
+Initialization : git init //start tracking for particular files/folder
+Modification/Adding : git add file_Name
