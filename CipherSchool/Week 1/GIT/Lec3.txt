@@ -1,0 +1,13 @@
+recap:
+git init 
+git add filename 
+git commit -m"your message"
+
+
+To return to previous commits 
+checkout command is used
+
+git checkout id #id is taken from git log 
+git checkout master # shows all the commits
+
+checkout command ia a safe command and it doesn't alter the history.
