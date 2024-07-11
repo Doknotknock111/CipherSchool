@@ -1,0 +1,21 @@
+git config --global user.email "xyz@qwe.com"
+git config --global user.name "xyz"
+git config user.name 
+
+Global sets value globally
+
+modification: 
+git add index.html
+
+git status 
+
+git rm --cached index.html // removes the file 
+
+git commit -m"Initial commit" // initial commit with message 
+
+git.log // to check commit message or past history 
+
+git add index.html style.css
+git commit -m"Added style.css"
+
+git log --oneline // to view commit in simplfied version
