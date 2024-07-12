@@ -1,0 +1,26 @@
+Recap to Git 
+
+git checkout -b dev-1
+git checkout master  
+git checkout -b dev-2
+git branch 
+
+
+# merge 
+git merge dev-1 # in master branch 
+from dev-2 branch 
+git merge master 
+
+# conflict 
+changes made on same line of code 
+it will highlight the area of conflict , you need to resolve it.
+After resolving , git add .
+git commit   
+     -- VI editor will open, where you can write your message 
+
+#delete - it can delete branches from where it was created, here branches were created in master
+git checkout master 
+git branch -d dev-1
+
+git branch -d dev-2
+
