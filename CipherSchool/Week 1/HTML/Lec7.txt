@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta describe="My first webpage using HTML">
+        <title>
+            My first webpage
+        </title>
+    </head>
+    <body>
+        The body tag has been created.
+        <h1>Heading 1</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Ipsam adipisci quisquam itaque, corporis beatae, voluptatum,
+             distinctio voluptate aut sequi asperiores tempora. Recusandae 
+             fugiat harum quibusdam optio labore, iste perspiciatis ipsa!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Ipsam adipisci quisquam itaque, corporis beatae, voluptatum,
+                 distinctio voluptate aut sequi asperiores tempora. Recusandae 
+                 fugiat harum quibusdam optio labore, iste perspiciatis ipsa!</p>
+
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Ipsam adipisci quisquam itaque, corporis beatae, voluptatum,
+             distinctio voluptate aut sequi asperiores tempora. Recusandae 
+             fugiat harum quibusdam optio labore, iste perspiciatis ipsa!</p>
+        <h3>Heading 3</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Ipsam adipisci quisquam itaque, corporis beatae, voluptatum,
+             distinctio voluptate aut sequi asperiores tempora. Recusandae 
+             fugiat harum quibusdam optio labore, iste perspiciatis ipsa!</p>
+        <h4>Heading 4</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Ipsam adipisci quisquam itaque, corporis beatae, voluptatum,
+             distinctio voluptate aut sequi asperiores tempora. Recusandae 
+             fugiat harum quibusdam optio labore, iste perspiciatis ipsa!</p>
+<!--              
+        <h5>Heading 5</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Ipsam adipisci quisquam itaque, corporis beatae, voluptatum,
+             distinctio voluptate aut sequi asperiores tempora. Recusandae 
+             fugiat harum quibusdam optio labore, iste perspiciatis ipsa!</p>
+        <h6>Heading 6</h6>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Ipsam adipisci quisquam itaque, corporis beatae, voluptatum,
+             distinctio voluptate aut sequi asperiores tempora. Recusandae 
+             fugiat harum quibusdam optio labore, iste perspiciatis ipsa!</p> -->
+             <!-- ctrl+/, shortcut for commenting -->
+            
+    </body>
+</html>
