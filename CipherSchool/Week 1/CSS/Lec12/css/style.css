@@ -1,0 +1,59 @@
+/* body{
+    background: yellow ;
+} */
+/* header{
+    background-color: salmon;
+    color:#f0ffff
+} */
+
+a{
+    text-decoration: dashed;
+    color: red;
+    font-size: 30px;
+}
+ /* Specificity order
+   id:100
+   class:10
+   tag: 1
+ */
+header#header.welcome{
+    background: gray;
+}
+#header.welcome{
+    background: darkorchid;    
+   }
+#header{
+  background: blue;
+ }
+.welcome{
+    background: red;
+} 
+header{
+    background: yellow;
+    color: yellow;
+}
+
+#article{
+   background: darkgreen;
+   
+}
+
+.para{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+} 
+/* Box model */
+#header{
+    margin: 10px 5px 10px 5px;
+    border: 2px dotted cyan;
+    padding: 5px;
+}
+.box{
+    margin:10px;
+    border: 2px dashed black;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    display: inline-block;
+}
