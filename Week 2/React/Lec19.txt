@@ -1,0 +1,42 @@
+Wrote code in codepen.io 
+
+html:
+<!-- <div class="pizza">
+  Pizza Hut
+  <h2>Best pizza in town </h2>
+</div>
+<div class="pizza">
+       Dominos
+  <h2>Better than rest </h2>
+</div>
+<div class="pizza">
+       Dominos
+  <h2>Better than rest </h2>
+</div>
+ -->
+
+<div id="root"></div>
+
+CSS:
+.pizza{
+  font-size:20px;
+  background:cyan;
+  border: 1px solid black;
+  width: 200px;
+  padding: 10px;  
+  display:inline-block;
+}
+
+Javascript: used babel preprocessor and added dependency : react and react dom 
+import React from "https://esm.sh/react";
+import ReactDOM from "https://esm.sh/react-dom";
+function Pizza(){
+  return(
+    //JSX
+    <div class="pizza">
+      <h1>Pizza</h1>
+    </div>
+  )
+}
+
+ReactDOM.render(Pizza() , document.getElementById('root'));
