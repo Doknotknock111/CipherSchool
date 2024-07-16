@@ -1,0 +1,19 @@
+props - property, used to pass data
+object props.property 
+
+React creates Virtual DOM [Document Object Model]
+
+import React from "https://esm.sh/react";
+import ReactDOM from "https://esm.sh/react-dom";
+
+function Pizza(props){
+  return(
+    <div class="pizza">
+      <h1>{props.name}</h1>
+    </div>
+  )
+}
+
+ReactDOM.render(<Pizza name='Pizza hut'/> , document.getElementById('root'));
+
+ReactDOM.render(<Pizza name='Dominos'/> , document.getElementById('root2'));
