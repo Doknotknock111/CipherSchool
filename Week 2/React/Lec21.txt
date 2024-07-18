@@ -1,0 +1,58 @@
+App.js
+// import logo from './logo.svg';
+// import './App.css';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>My first React App</h1>
+//     </div>
+//   );
+// }
+
+
+import React, { Component } from 'react';
+
+// alias 
+import Pizza from './Pizza'
+
+class App extends Component {
+  render() {
+      let dynammicName = 'React is mind blowing';
+      let brand = "PizzaHut";
+      let description = "Best Pizza in town";
+      let brand2 = "Dominoes";
+      let description2 = "Better than the best Pizza";
+    return (
+      <div>
+        {/* <h1>This is a class Component</h1> */}
+        <h1>
+          {dynammicName}
+        </h1>
+        <Pizza brand= {brand} description= {description} ></Pizza>
+        <Pizza brand= {brand2} description= {description2} ></Pizza>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+Pizza.js
+created inside src folder
+
+import React from 'react'
+// Functional Coomponent
+// Function name begins with a Capital letters
+let Pizza = (props) => {
+  console.log("I am coming from App.js", props);
+    return(
+      //JSX
+      <div class="pizza">
+        <h1>{props.brand.toUpperCase()}</h1>
+        <p>{props.description}</p>
+      </div>
+    )
+  }
+
+export default Pizza;  
