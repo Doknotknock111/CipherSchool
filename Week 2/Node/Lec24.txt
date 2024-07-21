@@ -1,5 +1,0 @@
-node --version
-node
-console.log("I am in Node")
-let arr= [1,2,3,4,5]
-arr
