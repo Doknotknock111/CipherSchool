@@ -1,0 +1,22 @@
+MVC Architecture :
+Model 
+View - Frontend
+Controller - Backend
+
+Model : {name:String, age:Number}
+
+Architecture:
+SOAP - Simple Object Access Protocol. It is XML based.
+REST - Representational State Transfer. It is JSON based. (JavaScript Object Notation).
+
+HTTP protocol (mostly used):
+GET - Idempotent method, doesn't change State.
+POST - Nonidempotent, continously change State.
+PUT - Idempotent
+DELETE - Idempotent
+
+POST is called when we want to save. 
+PUT is called when we want to edit.
+
+API : Application Program Interface
+In Web Based Architecture, Application is Backend, Program is Frontend and Interface is Request
