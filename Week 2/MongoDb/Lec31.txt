@@ -1,0 +1,79 @@
+delete_data_test.js :
+
+const assert = require('assert);
+const User = require('./../models/user);
+
+describe('describe records', () =>{
+    let newUser;
+    beforeEach((done) => {
+        new user = New User({
+            name: 'Jake',
+            age: 30
+        })
+        newUser.save().then(() => {
+            done();
+        })
+    })
+    it('it deletes one record from the db', done() =>{
+        User.findByIdAndDelete({ _id: newUser._id}).then(() =>{
+          User.findbyId({_id: newUser._id}).then( (data) =>{
+            assert(data==null)
+            done();
+          })
+        })
+    })
+})
+
+
+Album.js : 
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+
+const SongListSchema = new Schema({
+    artist: String,
+    title: String
+})
+
+const AlbumSchema = new Schema({  
+    name: String,
+    track: Number,
+    songs: [SongListSchema] // Hoisting,  SongListSchema should be defined earlier
+})
+
+const Album = mongoose.model('Album', AlbumSchema);
+
+module.exports = Album;
+
+
+nested_document_testing:
+const assert = require('assert');
+const Album = require('./Model/Album);
+const mongoose = require('mongoose');
+
+describe('describe record', () =>{
+    beforeEach((done) => {
+        mongoose.connection.collections.albums.drop(() => {
+            done();
+        })
+     })
+    
+    it('creates an album with sub-documents', (done)=>{
+       let album_one = new album({
+        name: 'Porcupine tree',
+        tracks: 2,
+        songs: [
+            {title:'Lazarous ', artist: 'Steven Wilsom ',},
+            {title:'Trains ', artist: 'Steven Wilson ',}
+        ]
+       })
+       album_one.save().then(() =>{
+        album.fineOne({name: 'Porcupine tree'}).then((data) =>{
+          assert(data.songs.length === data.tracks)
+          done()
+        })
+       })
+
+    })
+})
+
